@@ -1,0 +1,450 @@
+body {
+    /* background: #3e4144; */
+}
+.form {
+    margin: 50px auto;
+    width: 300px;
+    /* padding: 30px 25px; */
+    padding: 13px 18px;
+    background: white;
+}
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: #666;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.home{
+    background-color: antiquewhite;
+    min-height: 100vh;
+}
+.row {
+    width: 80%;
+    margin: auto;
+}
+.logo {
+    width: 15vh;
+    height: 3vw;
+    margin-top: 1rem;
+    display: inline-block;
+}
+.navbar {
+    float: right;
+    padding-top: 2rem;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul li {
+    padding-right: 1.5rem;
+    list-style: none;
+}
+.navbar ul a {
+    color: black;
+    text-decoration: none;
+}
+.cart{
+    width: 35px;
+    height: 17px;
+    cursor: pointer;
+}
+ul li a:hover{
+    cursor: pointer;
+    color: blue;
+}
+li {
+    list-style: none;
+}
+.box {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: none;
+    margin-top: 1rem;
+}
+.box ul li {
+    margin: 1rem;
+    display: block;
+}
+.box ul {
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5;
+}
+a {
+    text-decoration: none;
+}
+.box a {
+    color: white;
+    text-decoration: none;
+}
+.menu {
+    margin-right: 1rem;
+    width: 1rem;
+    display: none;
+}
+.box1 {
+    display: flex;
+}
+.image {
+    height: 40vh;
+    width: 40vw;
+}
+.col-1{
+    display: flex;
+    align-items: center;
+    padding-top: 20vh;
+}
+.pd-b {
+    padding-bottom: 1rem;
+}
+.p-y {
+    padding-top: 1rem;
+}
+.btn {
+    background-color: orangered;
+    padding: 6px 20px;
+    border: 0px solid;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.col-2 {
+    padding: 0.5rem;
+    transition: transform 0.5s;
+    text-align: center;
+}
+.col-2:hover {
+    transform: translateY(-5px);
+}
+.image1 {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+.category {
+    display: flex;
+    margin: 4rem;
+    justify-content: center;
+    flex-basis: 20px;
+    flex-wrap: wrap;
+}
+.heading {
+    text-align: center;
+}
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after {
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.col-2 .fa {
+    color: #ff523b;
+}
+
+
+/* connected companies */
+.row1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 60px;
+    margin: 4rem;
+}
+.box1 img {
+    cursor: pointer;
+}
+
+
+/****************** footer css *******************/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 2rem 4rem;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.col-4{
+    text-align: center;
+}
+.footer h1 {
+    margin-bottom: 10px;
+    font-size: 15pt;
+}
+.footer img {
+    width: 10vw;
+    padding-bottom: 15px;
+}
+.col-4 a {
+    color: white;
+}
+.col-4 p {
+    margin: 10px;
+}
+
+
+
+/****************** contact page css *******************/
+.contactrow {
+    width: 60%;
+    margin: auto;
+    margin-top: 15vh;
+}
+.form {
+    width: 100%;
+}
+.chead {
+    width: 100%;
+    padding: 0.5rem;
+    border: 0px solid black;
+}
+.mt1 {
+    margin-top: 1rem;
+}
+.mt2 {
+    margin-top: 2rem;
+}
+.mx1 {
+    margin-right: 1rem;
+}
+.btn1 {
+    width: 100%;
+}
+
+/************************ show page css *********************/
+.image2 {
+    width: 42.3vh;
+}
+.image3 {
+    width: 10vh;
+}
+.contactrow {
+    display: flex;
+    padding: 1rem;
+}
+.card1 {
+    margin: 2rem;
+}
+.no_of_piece {
+    width: 2rem;
+    text-align: center;
+}
+.text {
+    font-family:'Times New Roman', serif;
+}
+.symbol {
+    color: #ff523b;
+    padding-left: 10px;
+}
+.related-products-title {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+
+/******************* cart page css ********************/
+.cart-detail {
+    margin-top: 10vh;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+th {
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background-color: #ff523b;
+    font-weight: normal;
+}
+td {
+    padding: 10px 5px;
+}
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.prod-info {
+    margin-top: 10px;
+}
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table {
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 420px;
+}
+td:last-child {
+    text-align: right;
+}
+th:last-child {
+    text-align: right;
+}
+
+
+
+
+
+
+/*****************login signup page css  *****************/
+.formcontainer {
+    width: 300px;
+    min-height: 430px;
+    background-color: #555;
+    position: relative;
+    padding: 20px ;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+.form-btn {
+    text-align: center;
+}
+.loginbox {
+    padding: 20px;
+}
+.form-btn span {
+    font-weight: bold;
+    margin: 1rem;
+    color: white;
+    cursor: pointer;
+    width: 5vw;
+    display: inline-block;
+}
+
+.pt1 {
+    padding-top: 1rem;
+}
+.forgot {
+    text-align: center;
+    color: #ff523b;
+}
+
+/********************* copyright ******************/
+.copyright {
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+@media only  screen and (max-width:800px){
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 10pt;
+    }
+    .footer h1 {
+        padding: 5px;
+    }
+    .footer img {
+        width: 20vw;
+        padding-top: 15px;
+    }
+    .image1 {
+        width: 100%;
+        height: 300px;
+    }
+    .box {
+        display: block;
+        transition: ease-in-out 0.5;
+    }
+    .box1 {
+        display: none;
+    }
+    .menu {
+        display: block;
+        cursor: pointer;
+    }
+    /* contact form  */
+    .contactrow {
+        width: 100%;
+        padding: 2rem;
+    }
+    .companies {
+        display: none;
+    }
+}
+
+@media only  screen and (max-width:600px){
+    .row {
+        width: 100%;
+        padding: 20px;
+    }
+    .category {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .col-2, .col-2, .col-4 {
+        flex-basis: 100%;
+    }
+}
